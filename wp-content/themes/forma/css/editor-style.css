@@ -1,0 +1,441 @@
+/*
+Theme Name: Forma
+Description: Used to style the TinyMCE editor.
+*/
+body {
+	color: #333;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.75;
+	margin: 24px 30px;
+	max-width: 740px;
+	vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #111;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	line-height: 1.25;
+	margin: 30px 0 18px;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	padding-top: 0;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+a {
+	border-bottom: 1px solid #00ffff;
+	color: #333;
+	text-decoration: none;
+}
+
+.mejs-volume-slider,
+.mejs-horizontal-volume-slider,
+.wp-playlist-caption {
+	border: 0;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+address {
+	font-style: italic;
+	margin: 0 0 24px;
+}
+
+mark,
+ins {
+	background-color: #ffff00;
+	color: #111;
+	padding: 0 3px;
+	text-decoration: none;
+}
+
+p {
+	margin: 0 0 24px;
+}
+
+blockquote {
+	border: 2px solid #333;
+	color: #111;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.33333;
+	margin: 30px 15px 45px 0;
+	padding: 45px 30px 15px 45px;
+	position: relative;
+	text-align: center;
+}
+
+blockquote:before {
+	background-color: #00ffff;
+	border-color: #00ffff;
+	border-style: solid;
+	border-width: 0 2px 2px 0;
+	content: "";
+	height: 100%;
+	left: 15px;
+	position: absolute;
+	top: 15px;
+	width: 100%;
+	z-index: -1;
+}
+
+blockquote cite,
+blockquote small {
+	display: block;
+	font-style: normal;
+	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	margin-top: 12px;
+}
+
+blockquote p {
+	margin-bottom: 12px;
+}
+
+blockquote > :last-child {
+	margin-bottom: 0;
+}
+
+blockquote:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+	font-family: monospace, serif;
+}
+
+pre {
+	background-color: #f1f1f1;
+	color: #111;
+	font-size: 14px;
+	line-height: 1.5;
+	margin: 0 0 24px;
+	padding: 24px;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+sup,
+sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	top: -6px;
+}
+
+sup {
+	bottom: -3px;
+}
+
+small {
+	font-size: 80%;
+}
+
+hr {
+	background-color: #f1f1f1;
+	border: 0;
+	height: 1px;
+	margin: 30px 0;
+	position: relative;
+}
+
+ul,
+ol {
+	margin: 0 0 24px;
+	padding: 0 0 0 24px;
+}
+
+ul {
+	list-style: circle;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+
+dl {
+	margin: 0 0 24px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 24px;
+}
+
+table,
+.mce-item-table {
+	border-collapse: separate;
+	border-spacing: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0 0 24px;
+	text-align: left;
+	width: 100%;
+}
+
+table caption,
+.mce-item-table caption {
+	color: #999;
+	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+table th,
+.mce-item-table th {
+	color: #111;
+	font-weight: 700;
+}
+
+table th,
+table td,
+.mce-item-table td,
+.mce-item-table th {
+	padding: 8px 10px;
+}
+
+embed,
+iframe,
+object {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.mce-content-body .wp-playlist,
+.mce-content-body .wp-playlist-item {
+	border-color: #f1f1f1;
+}
+
+img {
+	border: 0;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+figure {
+	margin: 0;
+}
+
+.wp-caption.alignleft,
+img.alignleft {
+	float: left;
+	margin: 6px 30px 12px 0;
+}
+
+.wp-caption.alignright,
+img.alignright {
+	float: right;
+	margin: 6px 0 12px 30px;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto 24px;
+}
+
+blockquote.alignleft,
+blockquote.alignright {
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top: 0;
+	width: 40%;
+}
+
+blockquote.alignleft {
+	float: left;
+	margin-right: 45px;
+}
+
+blockquote.alignright {
+	float: right;
+	margin-left: 30px;
+}
+
+.wp-caption {
+	background: transparent;
+	border: none;
+	margin-bottom: 24px;
+	max-width: 100%;
+	padding: 0;
+	text-align: inherit;
+}
+
+.wp-caption-text,
+.wp-caption-dd {
+	color: #999;
+	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	padding: 12px 0 0;
+	text-align: center;
+}
+
+.gallery {
+	margin: 0 -5px 24px;
+	padding: 0;
+}
+
+.gallery-item {
+	display: inline-block;
+	max-width: 100%;
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+
+a.forma-button {
+	background-color: transparent;
+	border: 2px solid #333;
+	color: #111;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	line-height: 1.5;
+	padding: 8px 30px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+a.forma-button:before {
+	background-color: #00ffff;
+	border: 2px solid #00ffff;
+	content: "";
+	height: 100%;
+	left: 5px;
+	position: absolute;
+	top: 5px;
+	width: 100%;
+	z-index: -1;
+}
+
+.intro {
+	color: #111;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 24px;
+}
